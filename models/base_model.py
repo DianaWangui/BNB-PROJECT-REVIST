@@ -8,4 +8,4 @@ class BaseModel:
     updated_at = now.datetime
 
     def __str__(self):
-        return [class.__name__] (self.id) <self.__dict__
+        return [class.__name__] (self.id) <self.__dict__ 
